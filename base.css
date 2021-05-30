@@ -47,6 +47,18 @@ header {
 
 }
 
+h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: underline;
+}
+
 @media only screen and (orientation: landscape) {
   body {
     background-color: #FFEBCD;
