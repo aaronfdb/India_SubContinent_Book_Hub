@@ -12,6 +12,7 @@ body {
   border-right: 5px solid #777;
 	max-width: 250px;
 	height: 100vh;
+  overflow-y: auto;
 }
 
 nav a {
