@@ -6,6 +6,16 @@ body {
   font-family: Cabin;
 }
 
+#search {
+  float: center;
+  text-decoration: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 8px 30px;
+}
+
 #navbar {
   position: fixed;
 	background-color: #F0F8FF;
