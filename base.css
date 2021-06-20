@@ -75,3 +75,7 @@ h1 {
     background-color: #FFEBCD;
   }
 }
+
+img {
+  border:solid black;
+}
