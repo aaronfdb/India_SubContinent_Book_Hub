@@ -18,7 +18,7 @@ body {
 
 #navbar {
   position: fixed;
-	background-color: #F0F8FF;
+  background-color: rgb(245,222,179);
   border-right: 5px solid #777;
 	max-width: 250px;
 	height: 100vh;
@@ -37,8 +37,9 @@ nav a {
   flex: 1;
   margin-left: 260px;
   padding: 10px;
-  background-color: #FFEBCD;
+  background-color: rgb(245,245,220);
 }
+
 
 header {
 	font-size: 35px;
