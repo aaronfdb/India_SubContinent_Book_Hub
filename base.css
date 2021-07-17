@@ -18,15 +18,15 @@ body {
 
 #navbar {
   position: fixed;
-  background-color: rgb(245,222,179);
-  border-right: 5px solid #777;
+  background-color: #F1F449;
+  border-right: 5px solid darkslategrey;
 	max-width: 250px;
 	height: 100vh;
   overflow-y: auto;
 }
 
 nav a {
-	border-top: 1px solid #777;
+	border-top: 1px solid darkslategrey;
 	color: #000;
 	display: block;
 	padding: 15px;
@@ -37,7 +37,7 @@ nav a {
   flex: 1;
   margin-left: 260px;
   padding: 10px;
-  background-color: rgb(245,245,220);
+  background-color: #F1F449;
 }
 
 
