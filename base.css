@@ -18,7 +18,7 @@ body {
 
 #navbar {
   position: fixed;
-  background-color: #F1F449;
+  background-image: url('images/bookimage.jpg') cover no-repeat;
   border-right: 5px solid darkslategrey;
 	max-width: 250px;
 	height: 100vh;
@@ -35,9 +35,9 @@ nav a {
 
 #main-doc {
   flex: 1;
+  background-image: url('images/bookimage.jpg') cover no-repeat;
   margin-left: 260px;
   padding: 10px;
-  background-color: #F1F449;
 }
 
 
@@ -69,14 +69,21 @@ h1 {
   justify-content: space-around;
   align-items: center;
   text-decoration: underline;
+  overflow-x: hidden;
+}
+
+#byregion4 {
+  overflow-x: hidden;
 }
 
 @media only screen and (orientation: landscape) {
-  body {
-    background-color: #FFEBCD;
-  }
 }
 
 img {
-  border:solid black;
-}
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1px 5px 5px 1px;
+    padding: 5px;
+    width: 175px;
+    height: 175px;
+  }
